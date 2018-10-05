@@ -26,4 +26,12 @@ public class MoodList {
     public void removeMood(Mood mood) {
         moodList.remove(mood);
     }
+
+    public int size() {
+        return moodList.size();
+    }
+
+    public boolean contains(Mood mood) {
+        return moodList.contains(mood);
+    }
 }

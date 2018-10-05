@@ -8,7 +8,8 @@ public class MoodTest extends TestCase {
 
     public void testMoodType() {
         Love love = new Love();
-        assertTrue("Not love", love.getMood().equals("Love"));
+        assertTrue("Wrong type", love.getMood().equals("Love"));
+        assertFalse("Wrong type", love.getMood().equals("Joy"));
 
     }
 
