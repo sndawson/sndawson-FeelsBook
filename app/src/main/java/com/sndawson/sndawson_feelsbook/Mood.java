@@ -1,7 +1,7 @@
 /* Mood abstract class handles the common attributes of
  * all the different mood types.
  *
- * Referenced lonelyTwitter project forked from ??? and help of TAs in labs
+ * Referenced lonelyTwitter project forked from Joshua Charles Campbell and help of TAs in labs
  */
 
 package com.sndawson.sndawson_feelsbook;

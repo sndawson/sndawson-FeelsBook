@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void addMood(View view) {
+        //Toast.makeText(this, "Mood Added", Toast.LENGTH_LONG);
+
         Intent intent = new Intent (this, EditMoodActivity.class);
         startActivity(intent);
     }
